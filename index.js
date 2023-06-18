@@ -83,7 +83,7 @@ function generateSvgFile(text, textColor, shape, shapeColor) {
   }
 
   const svg = `<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="300" height="200">${shapeInstance.render()}<text ${shapePos} font-size="60" font-family="Times New Roman" text-anchor="middle" fill="${textColor}">${text}</text>`;
-  const filePath = `./examples/${shapeName}.svg`;
+  const filePath = `./shapes/${shapeName}.svg`;
   require('fs').writeFileSync(filePath, svg);
   console.log('Generated logo.svg');
 

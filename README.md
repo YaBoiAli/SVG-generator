@@ -1,57 +1,83 @@
 # SVG Logo Generator
 
-This command-line application generates an SVG logo based on user input. It allows you to specify text, text color, shape, and shape color. The generated SVG file can be opened in a browser to view the logo.
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+
+## Description
+
+The SVG Logo Generator is a command-line application that allows users to create custom SVG logos based on their input. With this application, users can specify text content, text color, shape type, and shape color to generate a unique logo. The application supports up to three characters for the text input and accepts color keywords or hexadecimal values for both text and shape colors.
+
+Upon running the application, users are prompted to enter the desired text, text color, shape type, and shape color. Once all the inputs are provided, the application generates an SVG file named `(NameOfShape).svg` in the `shapes` folder. The SVG file incorporates the specified text and shape, with the text rendered in Times New Roman font.
+
+To view the generated logo, users can open the `(NameOfShape).svg` file in a web browser, which displays a 300x200 pixel image of the logo. Additionally, the application automatically opens the SVG file in Visual Studio Code for further editing and customization.
+
+The SVG Logo Generator is implemented using Node.js and utilizes the `inquirer` and `open` packages for user input and file manipulation. It follows the principles of object-oriented programming with the Triangle, Circle, and Square classes representing the different shapes, and Jest tests are included to ensure the correctness of the shape classes' `render()` method.
+
+Whether you need a simple logo for personal projects or want to experiment with different shapes and colors, the SVG Logo Generator provides a flexible and intuitive solution for creating visually appealing logos.
+
+## Table of Contents
+
+- [SVG Logo Generator](#svg-logo-generator)
+  - [Description](#description)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Link to Video](#link-to-video)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Questions](#questions)
+
+## Installation
+
+To install the README Generator, follow these steps:
+
+1. Clone this repository to your local machine.
+2. Open a terminal window and navigate to the project's root directory.
+3. Run the following command to install the required dependencies:
+
+```
+npm install
+```
 
 ## Usage
 
-1. Clone the repository:
+To use the README Generator, follow these steps:
 
-   ```git clone https://github.com/your-username/svg-logo-generator.git```
-
-2. Navigate to the project directory:
-   
-   ```
-   cd svg-logo-generator
-   ```
-
-3. Install the dependencies:
+1. Ensure you have Node.js installed on your machine.
+2. Open a terminal window and navigate to the project's root directory.
+3. Run the following command to start the application:
 
 ```
-    npm install
+node index.js
 ```
 
-5. Run the application:
-    
-    ```
+4. Answer the prompts with the requested information about your project.
+5. Once you have provided all the required details, the application will generate a SVG image in the shapes folder based on your inputs.
 
-    node index.js
+## Link to Video
 
-    ```
+[Video]("https://dcccd-my.sharepoint.com/:v:/g/personal/e3672460_student_dcccd_edu/Ef8vHGsFULRHnnLIEWuprPoBNeoFm6me8tmzqSk_PSUNhQ?e=NUYvPc")
 
-7. Follow the prompts to enter the text, text color, shape, and shape color.
 
-8. After entering all the required information, the application will generate an SVG file named logo.svg in the examples folder. The file will automatically open in Visual Studio Code.
-
-9. Open the logo.svg file in a browser to view the generated logo.
-
-## Requirements
-
-    Node.js (version 12 or above)
-    npm (Node Package Manager)
-## Dependencies
-
-    inquirer
-    open
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the terms of the MIT license.
 
-In the README file, the "Usage" section provides step-by-step instructions on how to use the program. The "Example Logo" section includes an `<img>` tag where you can later add the path to your generated logo image.
+## Contributing
 
-Remember to replace `your-username` in the repository URL with your actual GitHub username.
+Contributions are welcome! If you want to contribute to this project, please follow these steps:
 
-After generating the logo image, you can update the README.md file with the correct path to the image, like this:
+1. Fork this repository.
+2. Create a new branch with your feature or bug fix.
+3. Make the necessary changes and commit them.
+4. Submit a pull request, explaining your changes in detail and providing any relevant information.
 
-## Example Logo
+## Questions
 
-![Generated Logo](./examples/circle.svg)
+If you have any questions or need further assistance, please feel free to reach out:
+
+- GitHub: [GitHub](https://github.com/YaBoiAli)
+- Email: [Email](mailto:alinawab9830@gmail.com)
+
+---
+
+This README.md file was generated by the README Generator
