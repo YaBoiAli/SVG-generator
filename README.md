@@ -55,7 +55,7 @@ node index.js
 
 ## Link to Video
 
-[Video]("https://dcccd-my.sharepoint.com/:v:/g/personal/e3672460_student_dcccd_edu/Ef8vHGsFULRHnnLIEWuprPoBNeoFm6me8tmzqSk_PSUNhQ?e=NUYvPc")
+[Video]("https://www.youtube.com/watch?v=7bbTEYQkDR4")
 
 
 ## License
