@@ -64,7 +64,7 @@ function generateSvgFile(text, textColor, shape, shapeColor) {
     case 'Circle':
       shapeInstance = new Circle(shapeColor);
       shapeName = "circle";
-      shapePos = "x='100' y='120'";
+      shapePos = "x='100' y='115'";
 
       break;
     case 'Triangle':
