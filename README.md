@@ -55,7 +55,7 @@ node index.js
 
 ## Link to Video
 
-[Video]("https://www.youtube.com/watch?v=7bbTEYQkDR4")
+[![Watch the video]]([https://youtu.be/T-D1KVIuvjA](https://www.youtube.com/watch?v=7bbTEYQkDR4))
 
 
 ## License
